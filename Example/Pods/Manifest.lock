@@ -1,0 +1,16 @@
+PODS:
+  - QRVideoEditor (0.1.0)
+
+DEPENDENCIES:
+  - QRVideoEditor (from `../`)
+
+EXTERNAL SOURCES:
+  QRVideoEditor:
+    :path: ../
+
+SPEC CHECKSUMS:
+  QRVideoEditor: f666ab636e1d307119e2fdb81af5f51eb903eeb4
+
+PODFILE CHECKSUM: d38ee3dc215af340912ac50d8d7ce9123266c3e6
+
+COCOAPODS: 1.4.0

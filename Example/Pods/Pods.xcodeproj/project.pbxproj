@@ -1,0 +1,731 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		14014A6413FA37A363EFBF53A13A390B /* Pods-QRVideoEditor_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C71603AD7739AD8E4A22930F45702A8 /* Pods-QRVideoEditor_Tests-dummy.m */; };
+		1CE0CDA5067004EF011426937799AA53 /* QRVideoEditorHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 54D127BEF6E0D25A33741BB7D0120BC5 /* QRVideoEditorHelper.m */; };
+		218A8BF82C670913FE8FB6359C832900 /* Pods-QRVideoEditor_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B7F87FE7C54AF60DEB67F86DF6BCB40D /* Pods-QRVideoEditor_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		27346C19D5DE0CA20CE32AFD7B08AF1A /* QRVideoEditor.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E6AACFB7442857772C8A8AB225D7FA5 /* QRVideoEditor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		72EEBC8708BA729D18E8F6D6DA9DD031 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		774AF31B1E3F2E982ECCD5D86959A5D8 /* Pods-QRVideoEditor_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D777B7546F017E3F3A86AD2ADE9926EC /* Pods-QRVideoEditor_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		94EA8A270FDFCE90DC709806F604E02D /* Pods-QRVideoEditor_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8999216CB7E86903A3BCEE87F7A63665 /* Pods-QRVideoEditor_Example-dummy.m */; };
+		A2C2C141D648D4E74B4C4F547FA29D88 /* QRVideoEditorHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B7D81725C54B3414A897A368CA631F8 /* QRVideoEditorHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B407DD6597C04CB5A6FED5754B863D22 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		BF440F2C0AED12D4703BA03B4AE50CEC /* QRVideoEditor-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 644C4D8076D10E9994117CC467DDBDB1 /* QRVideoEditor-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C601B2A0812AB5CE3E2E624800A38079 /* QRVideoEditor-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CDFE4411A35ED6E32FC11F17C68FE1C /* QRVideoEditor-dummy.m */; };
+		E07DAA694F44E5E0CF4A990EE9C1B8CF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D1CCFBD5136D88AA8DD1E2180A0699A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F549151CEE596C598693053C04E65495;
+			remoteInfo = QRVideoEditor;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		035FB40C3C7C64735974B03323CCB831 /* QRVideoEditor.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = QRVideoEditor.podspec; sourceTree = "<group>"; };
+		201E366DA99EF0BFDEF2BD0EB96A8CD8 /* QRVideoEditor.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QRVideoEditor.xcconfig; sourceTree = "<group>"; };
+		39FAD0A29CE80A0DF70B75D81AAE4FB2 /* QRVideoEditor-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QRVideoEditor-prefix.pch"; sourceTree = "<group>"; };
+		3CDFE4411A35ED6E32FC11F17C68FE1C /* QRVideoEditor-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "QRVideoEditor-dummy.m"; sourceTree = "<group>"; };
+		3E6AACFB7442857772C8A8AB225D7FA5 /* QRVideoEditor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QRVideoEditor.h; path = QRVideoEditor/Classes/QRVideoEditor.h; sourceTree = "<group>"; };
+		40F18741CD89DC4FB940A4110C0EA0E1 /* QRVideoEditor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = QRVideoEditor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		48B45475BC62B9CC306461CCFBE0DDC4 /* Pods_QRVideoEditor_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QRVideoEditor_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E72DE85698A467FFE1EC88886F7329E /* Pods-QRVideoEditor_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QRVideoEditor_Tests-resources.sh"; sourceTree = "<group>"; };
+		528A7D8E3932F3D83F24153CC9CB0F53 /* Pods-QRVideoEditor_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QRVideoEditor_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		54D127BEF6E0D25A33741BB7D0120BC5 /* QRVideoEditorHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QRVideoEditorHelper.m; path = QRVideoEditor/Classes/QRVideoEditorHelper.m; sourceTree = "<group>"; };
+		5A55DBB18356DB285787A87C600B6A0B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		5F77E6306C5FF1206DD67A9BDD95537C /* Pods-QRVideoEditor_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QRVideoEditor_Example-frameworks.sh"; sourceTree = "<group>"; };
+		644C4D8076D10E9994117CC467DDBDB1 /* QRVideoEditor-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QRVideoEditor-umbrella.h"; sourceTree = "<group>"; };
+		6475A8C3CFC621AC6DD3740C1AB840ED /* Pods-QRVideoEditor_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QRVideoEditor_Example-resources.sh"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7B3E728DF0BD73989DDA640616192B3C /* Pods-QRVideoEditor_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QRVideoEditor_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		7B648F480A8C82EA62DE378B0E205D97 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80ED5CCABC6AC2AD41E20BE5FD778A17 /* Pods-QRVideoEditor_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-QRVideoEditor_Tests.modulemap"; sourceTree = "<group>"; };
+		8593B9B4AF0F155B49940C4DC0ED1487 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		8999216CB7E86903A3BCEE87F7A63665 /* Pods-QRVideoEditor_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QRVideoEditor_Example-dummy.m"; sourceTree = "<group>"; };
+		8B7D81725C54B3414A897A368CA631F8 /* QRVideoEditorHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QRVideoEditorHelper.h; path = QRVideoEditor/Classes/QRVideoEditorHelper.h; sourceTree = "<group>"; };
+		8E300F62044EE315D6ED864ACA55AC31 /* QRVideoEditor.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = QRVideoEditor.modulemap; sourceTree = "<group>"; };
+		90EFF98A6917BAF50691AF11CC37CC31 /* Pods-QRVideoEditor_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-QRVideoEditor_Example.modulemap"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		957A633DA5DB0C95BC8962F771AC60BB /* Pods_QRVideoEditor_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QRVideoEditor_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C71603AD7739AD8E4A22930F45702A8 /* Pods-QRVideoEditor_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QRVideoEditor_Tests-dummy.m"; sourceTree = "<group>"; };
+		A994C8E2CBA5D50C58BA2B58AF47F38D /* Pods-QRVideoEditor_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QRVideoEditor_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		ABB3332B012630984879F21A788AA179 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7F87FE7C54AF60DEB67F86DF6BCB40D /* Pods-QRVideoEditor_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QRVideoEditor_Example-umbrella.h"; sourceTree = "<group>"; };
+		BA87DC2DF71ECA944B3E883526AD6CDF /* Pods-QRVideoEditor_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QRVideoEditor_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		C5132EE025E2F4F07C0D4BC0E23BB414 /* Pods-QRVideoEditor_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QRVideoEditor_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		C638A9ECFE8C368CEF2441CEDA577F56 /* Pods-QRVideoEditor_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QRVideoEditor_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C90AA2D55249162B94CFBF1FA83E8101 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D777B7546F017E3F3A86AD2ADE9926EC /* Pods-QRVideoEditor_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QRVideoEditor_Tests-umbrella.h"; sourceTree = "<group>"; };
+		DDBF3DE1499DD81375FB7E741A47AAA5 /* Pods-QRVideoEditor_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QRVideoEditor_Example.release.xcconfig"; sourceTree = "<group>"; };
+		E089674F8C48CDBBB93953D9DE51792A /* Pods-QRVideoEditor_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QRVideoEditor_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		E53ED3D7C1815570DDAD8AFEC79846E7 /* Pods-QRVideoEditor_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QRVideoEditor_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1B86888221EE403D94BD87851EC6EC5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72EEBC8708BA729D18E8F6D6DA9DD031 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		242C8DDE37826C8BB2F48BDE22D5A59B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E07DAA694F44E5E0CF4A990EE9C1B8CF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F849F0A50ABA38C856FD10618CB8949 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B407DD6597C04CB5A6FED5754B863D22 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		174BFBB9393A9282DC98BC23302111E2 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7B648F480A8C82EA62DE378B0E205D97 /* Info.plist */,
+				8E300F62044EE315D6ED864ACA55AC31 /* QRVideoEditor.modulemap */,
+				201E366DA99EF0BFDEF2BD0EB96A8CD8 /* QRVideoEditor.xcconfig */,
+				3CDFE4411A35ED6E32FC11F17C68FE1C /* QRVideoEditor-dummy.m */,
+				39FAD0A29CE80A0DF70B75D81AAE4FB2 /* QRVideoEditor-prefix.pch */,
+				644C4D8076D10E9994117CC467DDBDB1 /* QRVideoEditor-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/QRVideoEditor";
+			sourceTree = "<group>";
+		};
+		3BCE218B348E9037AC4513771088341C /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				5A55DBB18356DB285787A87C600B6A0B /* LICENSE */,
+				035FB40C3C7C64735974B03323CCB831 /* QRVideoEditor.podspec */,
+				8593B9B4AF0F155B49940C4DC0ED1487 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		3FCCF070BDF6837D0B920717AE730099 /* Pods-QRVideoEditor_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				ABB3332B012630984879F21A788AA179 /* Info.plist */,
+				80ED5CCABC6AC2AD41E20BE5FD778A17 /* Pods-QRVideoEditor_Tests.modulemap */,
+				E53ED3D7C1815570DDAD8AFEC79846E7 /* Pods-QRVideoEditor_Tests-acknowledgements.markdown */,
+				7B3E728DF0BD73989DDA640616192B3C /* Pods-QRVideoEditor_Tests-acknowledgements.plist */,
+				9C71603AD7739AD8E4A22930F45702A8 /* Pods-QRVideoEditor_Tests-dummy.m */,
+				C5132EE025E2F4F07C0D4BC0E23BB414 /* Pods-QRVideoEditor_Tests-frameworks.sh */,
+				4E72DE85698A467FFE1EC88886F7329E /* Pods-QRVideoEditor_Tests-resources.sh */,
+				D777B7546F017E3F3A86AD2ADE9926EC /* Pods-QRVideoEditor_Tests-umbrella.h */,
+				528A7D8E3932F3D83F24153CC9CB0F53 /* Pods-QRVideoEditor_Tests.debug.xcconfig */,
+				E089674F8C48CDBBB93953D9DE51792A /* Pods-QRVideoEditor_Tests.release.xcconfig */,
+			);
+			name = "Pods-QRVideoEditor_Tests";
+			path = "Target Support Files/Pods-QRVideoEditor_Tests";
+			sourceTree = "<group>";
+		};
+		4BC4F1732E88CF480838D4D637CFA046 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				957A633DA5DB0C95BC8962F771AC60BB /* Pods_QRVideoEditor_Example.framework */,
+				48B45475BC62B9CC306461CCFBE0DDC4 /* Pods_QRVideoEditor_Tests.framework */,
+				40F18741CD89DC4FB940A4110C0EA0E1 /* QRVideoEditor.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6C7FE26B0B27228D51D4E18A20AF2523 /* Pods-QRVideoEditor_Example */ = {
+			isa = PBXGroup;
+			children = (
+				C90AA2D55249162B94CFBF1FA83E8101 /* Info.plist */,
+				90EFF98A6917BAF50691AF11CC37CC31 /* Pods-QRVideoEditor_Example.modulemap */,
+				C638A9ECFE8C368CEF2441CEDA577F56 /* Pods-QRVideoEditor_Example-acknowledgements.markdown */,
+				A994C8E2CBA5D50C58BA2B58AF47F38D /* Pods-QRVideoEditor_Example-acknowledgements.plist */,
+				8999216CB7E86903A3BCEE87F7A63665 /* Pods-QRVideoEditor_Example-dummy.m */,
+				5F77E6306C5FF1206DD67A9BDD95537C /* Pods-QRVideoEditor_Example-frameworks.sh */,
+				6475A8C3CFC621AC6DD3740C1AB840ED /* Pods-QRVideoEditor_Example-resources.sh */,
+				B7F87FE7C54AF60DEB67F86DF6BCB40D /* Pods-QRVideoEditor_Example-umbrella.h */,
+				BA87DC2DF71ECA944B3E883526AD6CDF /* Pods-QRVideoEditor_Example.debug.xcconfig */,
+				DDBF3DE1499DD81375FB7E741A47AAA5 /* Pods-QRVideoEditor_Example.release.xcconfig */,
+			);
+			name = "Pods-QRVideoEditor_Example";
+			path = "Target Support Files/Pods-QRVideoEditor_Example";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				988D4EAB6D7B8C9679ABA654BDC02275 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				4BC4F1732E88CF480838D4D637CFA046 /* Products */,
+				A809AB8EBF6A347858EE183D78423724 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		870593B67F00BA5DB6FB851EEAEF829A /* QRVideoEditor */ = {
+			isa = PBXGroup;
+			children = (
+				3E6AACFB7442857772C8A8AB225D7FA5 /* QRVideoEditor.h */,
+				8B7D81725C54B3414A897A368CA631F8 /* QRVideoEditorHelper.h */,
+				54D127BEF6E0D25A33741BB7D0120BC5 /* QRVideoEditorHelper.m */,
+				3BCE218B348E9037AC4513771088341C /* Pod */,
+				174BFBB9393A9282DC98BC23302111E2 /* Support Files */,
+			);
+			name = QRVideoEditor;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		988D4EAB6D7B8C9679ABA654BDC02275 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				870593B67F00BA5DB6FB851EEAEF829A /* QRVideoEditor */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		A809AB8EBF6A347858EE183D78423724 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6C7FE26B0B27228D51D4E18A20AF2523 /* Pods-QRVideoEditor_Example */,
+				3FCCF070BDF6837D0B920717AE730099 /* Pods-QRVideoEditor_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0597EE14E80EBC6C4E26A89A99B75D7B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				774AF31B1E3F2E982ECCD5D86959A5D8 /* Pods-QRVideoEditor_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0CDC2C1F620B23FFB8BECC09401FC348 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				218A8BF82C670913FE8FB6359C832900 /* Pods-QRVideoEditor_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A94DA603EC15B1CBAAE4475B2FCFC7A5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF440F2C0AED12D4703BA03B4AE50CEC /* QRVideoEditor-umbrella.h in Headers */,
+				27346C19D5DE0CA20CE32AFD7B08AF1A /* QRVideoEditor.h in Headers */,
+				A2C2C141D648D4E74B4C4F547FA29D88 /* QRVideoEditorHelper.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		7D916FDB75D642C980E858205C26EAA9 /* Pods-QRVideoEditor_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00951557EC9C9309ED2592BF3BAB1FF2 /* Build configuration list for PBXNativeTarget "Pods-QRVideoEditor_Example" */;
+			buildPhases = (
+				4F8B598B7748AFE3D2AABE6638559B62 /* Sources */,
+				1B86888221EE403D94BD87851EC6EC5D /* Frameworks */,
+				0CDC2C1F620B23FFB8BECC09401FC348 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				813FD2DFBE0F8C245C282396F061A6D4 /* PBXTargetDependency */,
+			);
+			name = "Pods-QRVideoEditor_Example";
+			productName = "Pods-QRVideoEditor_Example";
+			productReference = 957A633DA5DB0C95BC8962F771AC60BB /* Pods_QRVideoEditor_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C6A1BA949BDA85755159E4B48624331C /* Pods-QRVideoEditor_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB717E844D7F4ECB64831308F1BB1EF1 /* Build configuration list for PBXNativeTarget "Pods-QRVideoEditor_Tests" */;
+			buildPhases = (
+				F9E7628C4081713D06368BA0EA3F6CC1 /* Sources */,
+				8F849F0A50ABA38C856FD10618CB8949 /* Frameworks */,
+				0597EE14E80EBC6C4E26A89A99B75D7B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-QRVideoEditor_Tests";
+			productName = "Pods-QRVideoEditor_Tests";
+			productReference = 48B45475BC62B9CC306461CCFBE0DDC4 /* Pods_QRVideoEditor_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F549151CEE596C598693053C04E65495 /* QRVideoEditor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50F3AA512C7A50038F0A5F75E99296EB /* Build configuration list for PBXNativeTarget "QRVideoEditor" */;
+			buildPhases = (
+				231E1479DEF833C3830F76939C5AF1F7 /* Sources */,
+				242C8DDE37826C8BB2F48BDE22D5A59B /* Frameworks */,
+				A94DA603EC15B1CBAAE4475B2FCFC7A5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QRVideoEditor;
+			productName = QRVideoEditor;
+			productReference = 40F18741CD89DC4FB940A4110C0EA0E1 /* QRVideoEditor.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 4BC4F1732E88CF480838D4D637CFA046 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7D916FDB75D642C980E858205C26EAA9 /* Pods-QRVideoEditor_Example */,
+				C6A1BA949BDA85755159E4B48624331C /* Pods-QRVideoEditor_Tests */,
+				F549151CEE596C598693053C04E65495 /* QRVideoEditor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		231E1479DEF833C3830F76939C5AF1F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C601B2A0812AB5CE3E2E624800A38079 /* QRVideoEditor-dummy.m in Sources */,
+				1CE0CDA5067004EF011426937799AA53 /* QRVideoEditorHelper.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F8B598B7748AFE3D2AABE6638559B62 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94EA8A270FDFCE90DC709806F604E02D /* Pods-QRVideoEditor_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9E7628C4081713D06368BA0EA3F6CC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14014A6413FA37A363EFBF53A13A390B /* Pods-QRVideoEditor_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		813FD2DFBE0F8C245C282396F061A6D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = QRVideoEditor;
+			target = F549151CEE596C598693053C04E65495 /* QRVideoEditor */;
+			targetProxy = D1CCFBD5136D88AA8DD1E2180A0699A1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		09937C0429DE5E92E7125800E89ADBBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 528A7D8E3932F3D83F24153CC9CB0F53 /* Pods-QRVideoEditor_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-QRVideoEditor_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QRVideoEditor_Tests/Pods-QRVideoEditor_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_QRVideoEditor_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4337BC9A6451A3FB3F6EAD5BB5012540 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E089674F8C48CDBBB93953D9DE51792A /* Pods-QRVideoEditor_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-QRVideoEditor_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QRVideoEditor_Tests/Pods-QRVideoEditor_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_QRVideoEditor_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5011B865762FC0C0A28ECEC4CB63DC68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		68E4C1174334AD619DD69E810A478EE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 201E366DA99EF0BFDEF2BD0EB96A8CD8 /* QRVideoEditor.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/QRVideoEditor/QRVideoEditor-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/QRVideoEditor/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/QRVideoEditor/QRVideoEditor.modulemap";
+				PRODUCT_NAME = QRVideoEditor;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		79D5AE1A0D2A066F5794046CD9A39984 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 201E366DA99EF0BFDEF2BD0EB96A8CD8 /* QRVideoEditor.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/QRVideoEditor/QRVideoEditor-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/QRVideoEditor/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/QRVideoEditor/QRVideoEditor.modulemap";
+				PRODUCT_NAME = QRVideoEditor;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		827269710C98D60C14D46BC6AF9BF728 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		88BF464B1B40C179F77D86482B14CA99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA87DC2DF71ECA944B3E883526AD6CDF /* Pods-QRVideoEditor_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-QRVideoEditor_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QRVideoEditor_Example/Pods-QRVideoEditor_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_QRVideoEditor_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9C9C2DAE4257C6E71045231F976B75E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDBF3DE1499DD81375FB7E741A47AAA5 /* Pods-QRVideoEditor_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-QRVideoEditor_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QRVideoEditor_Example/Pods-QRVideoEditor_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_QRVideoEditor_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00951557EC9C9309ED2592BF3BAB1FF2 /* Build configuration list for PBXNativeTarget "Pods-QRVideoEditor_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88BF464B1B40C179F77D86482B14CA99 /* Debug */,
+				9C9C2DAE4257C6E71045231F976B75E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5011B865762FC0C0A28ECEC4CB63DC68 /* Debug */,
+				827269710C98D60C14D46BC6AF9BF728 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50F3AA512C7A50038F0A5F75E99296EB /* Build configuration list for PBXNativeTarget "QRVideoEditor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68E4C1174334AD619DD69E810A478EE0 /* Debug */,
+				79D5AE1A0D2A066F5794046CD9A39984 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB717E844D7F4ECB64831308F1BB1EF1 /* Build configuration list for PBXNativeTarget "Pods-QRVideoEditor_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09937C0429DE5E92E7125800E89ADBBB /* Debug */,
+				4337BC9A6451A3FB3F6EAD5BB5012540 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

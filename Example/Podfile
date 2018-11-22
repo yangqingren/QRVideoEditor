@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'QRVideoEditor_Example' do
+  pod 'QRVideoEditor', :path => '../'
+
+  target 'QRVideoEditor_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

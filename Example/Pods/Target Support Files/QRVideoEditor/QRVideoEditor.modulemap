@@ -1,0 +1,6 @@
+framework module QRVideoEditor {
+  umbrella header "QRVideoEditor-umbrella.h"
+
+  export *
+  module * { export * }
+}
