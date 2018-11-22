@@ -34,7 +34,7 @@ s.ios.deployment_target = '8.0'
 
 s.source_files = 'QRVideoEditor/Classes/**/*'
 
-s.resource     = 'QRVideoEditor/Assets/*.bundle'
+ #s.resource     = 'QRVideoEditor/Assets/*.bundle'
 
 s.dependency 'MBProgressHUD'
 
