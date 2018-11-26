@@ -188,20 +188,18 @@
     mainCompositionInst.instructions = [NSArray arrayWithObject:mainInstruction];
     mainCompositionInst.frameDuration = CMTimeMake(1, 25);
     
-    CALayer *imgLayer = [CALayer layer];
-    imgLayer.contents = (id)image.CGImage;
-    imgLayer.bounds = CGRectMake(0, 0, frame.size.width, frame.size.height);
-    imgLayer.position = frame.origin;
-    
-    CALayer *overlayLayer = [CALayer layer];
-    [overlayLayer addSublayer:imgLayer];
-    
     CALayer *parentLayer = [CALayer layer];
     CALayer *videoLayer = [CALayer layer];
     parentLayer.frame = CGRectMake(0, 0, renderWidth, renderHeight);
     videoLayer.frame = CGRectMake(0, 0, renderWidth, renderHeight);
+    
+    CALayer *imgLayer = [CALayer layer];
+    imgLayer.contents = (id)image.CGImage;
+    imgLayer.frame = frame;
+    
     [parentLayer addSublayer:videoLayer];
-    [parentLayer addSublayer:overlayLayer];
+    [parentLayer addSublayer:imgLayer];
+    
     mainCompositionInst.animationTool = [AVVideoCompositionCoreAnimationTool
                                          videoCompositionCoreAnimationToolWithPostProcessingAsVideoLayer:videoLayer inLayer:parentLayer];
     
@@ -301,15 +299,17 @@
     mainCompositionInst.instructions = [NSArray arrayWithObject:mainInstruction];
     mainCompositionInst.frameDuration = CMTimeMake(1, 25);
     
+    CALayer *parentLayer = [CALayer layer];
+    CALayer *videoLayer = [CALayer layer];
+    parentLayer.frame = CGRectMake(0, 0, renderWidth, renderHeight);
+    videoLayer.frame = CGRectMake(0, 0, renderWidth, renderHeight);
+    
     CALayer *overlayLayer = [CALayer layer];
     [overlayLayer addSublayer:textLayer];
     overlayLayer.frame = frame;
     [overlayLayer setMasksToBounds:YES];
     
-    CALayer *parentLayer = [CALayer layer];
-    CALayer *videoLayer = [CALayer layer];
-    parentLayer.frame = CGRectMake(0, 0, renderWidth, renderHeight);
-    videoLayer.frame = CGRectMake(0, 0, renderWidth, renderHeight);
+    
     [parentLayer addSublayer:videoLayer];
     [parentLayer addSublayer:overlayLayer];
     
